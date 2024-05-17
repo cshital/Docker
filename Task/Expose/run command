@@ -1,0 +1,8 @@
+# docker run -d --name nginx nginx
+# docker ps
+# docker inspect nginx // (nginx is docker image) // docker inspect give all information docker image or container 
+# docker run -d --name nginx2 -p 80:80 nginx
+
+
+#docker images | grep test
+# docker run -d --name custom-nginx test:nginx

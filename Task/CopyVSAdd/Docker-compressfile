@@ -1,0 +1,11 @@
+#tar -czvf compress.tar.gz compress.txt 
+#docker build -t my-busybox02-image .
+#docker container run -dt --name my-busybox-02 my-busybox02
+#docker container exec -it my-busybox02 sh
+# cd/tmp -- ls 
+
+FROM busybox
+COPY copy.txt /tmp
+ADD add.txt /tmp
+ADD compress.tar.gz /tmp
+CMD ["sh"]

@@ -1,0 +1,7 @@
+# docker port publishing :
+
+- docker container run -dt --name webserver -p 80:80 nginx
+
+-P (Capital P) IS used for public // docker container run -dt --name webserver1 -P 80:80 nginx
+
+
